@@ -1797,7 +1797,7 @@ select {
         max-width: 80%;
     }
     #delivery form {
-        max-width: 80%;
+        max-width: 100%;
     }
     #payment {
         max-width: 100%;
