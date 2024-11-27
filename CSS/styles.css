@@ -1809,3 +1809,10 @@ select {
         max-width: 80%;
     }
 }
+/*Fjerne alle hover effekter*/
+@media (max-width: 850px) {
+    *:hover {
+        all: unset;
+    }
+}
+
