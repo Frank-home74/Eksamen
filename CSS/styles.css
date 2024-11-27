@@ -1556,6 +1556,7 @@ select {
     }
     .overlay h2 {
         font-size: 1.8rem;
+        padding-bottom: 1.5rem;
         
     }
     .overlay p {
