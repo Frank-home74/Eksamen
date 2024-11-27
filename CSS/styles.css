@@ -937,6 +937,7 @@ select {
 .kasse {
     margin: 0 auto;
     max-width: 1200px;
+    padding-top: 1rem;
 }
 
 .kasse-h1 {
@@ -1044,6 +1045,7 @@ select {
     list-style: none;
     font-size: 25px;
     padding-top: 5rem;
+    gap: 1rem;
 }
 .icon-list li i:hover {
      color: #777;  
