@@ -47,17 +47,17 @@
         </ul>          
     </header>
     <main aria-label="Produktinformasjon">
-        <nav aria-label="Brødsmulesti" id="breadcrumbs" style="display: none;">
+        <nav aria-label="Brødsmulesti" id="breadcrumbs">
             <ul class="breadcrumbs" aria-label="Du er her:">
                 <li><a href="index.html">Hjem</a></li>
-                <i class="fa-solid fa-chevron-right"></i>
+                <li><i class="fa-solid fa-chevron-right"></i></li>
                 <li><a href="product-category.html">Kategori</a></li>
-                <i class="fa-solid fa-chevron-right"></i>
+                <li><i class="fa-solid fa-chevron-right"></i></li>
                 <li>Produktnavn</li>
             </ul>
         </nav>
         
-        <section class="product-detail">
+        <section class="product-detail" aria-label="Produktdetaljer">
             <figure class="product-images">
                 <img src="image/stort.png" alt="Stort bilde av produktet" class="large-image">
             </figure>    
@@ -214,33 +214,33 @@
                             </thead>
                         </table>
                     </details>
-                       <p class="review-rating">
-                        Anmelderlser 
-                        <span class="star-container">
-                            <details class="popup-details">
-                                <summary class="star-link">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i> 
-                                    <span>32</span>
-                                </summary>
-                                <aside class="popup-box">
-                                    <img src="image/card5.jpg" alt="Passende tekst for bildet">
-                                    <h3>Max</h3>
-                                    <span class="stars">   
-                                        <span class="star-icon"><i class="fa-solid fa-star"></i></span>
-                                        <span class="star-icon"><i class="fa-solid fa-star"></i></span>
-                                        <span class="star-icon"><i class="fa-solid fa-star"></i></span>
-                                        <span class="star-icon"><i class="fa-regular fa-star"></i></span>
-                                        <span class="star-icon"><i class="fa-regular fa-star"></i></span>
-                                    </span>
-                                    <p>Mauris nec augue diam. Etiam at porttitor felis. Nunc finibus augue erat, ut gravida neque sollicitudin nec. Duis ac ligula auctor, malesuada velit a, placerat leo.</p>
-                                </aside>
-                            </details>      
-                        </span>
-                       </p>       
+                    <aside class="review-rating">
+                    Anmelderlser 
+                    <div class="star-container">
+                        <details class="popup-details">
+                            <summary class="star-link">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i> 
+                                <span>32</span>
+                            </summary>
+                            <aside class="popup-box">
+                                <img src="image/card5.jpg" alt="Passende tekst for bildet">
+                                <h3>Max</h3>
+                                <span class="stars">   
+                                    <span class="star-icon"><i class="fa-solid fa-star"></i></span>
+                                    <span class="star-icon"><i class="fa-solid fa-star"></i></span>
+                                    <span class="star-icon"><i class="fa-solid fa-star"></i></span>
+                                    <span class="star-icon"><i class="fa-regular fa-star"></i></span>
+                                    <span class="star-icon"><i class="fa-regular fa-star"></i></span>
+                                </span>
+                                <p>Mauris nec augue diam. Etiam at porttitor felis. Nunc finibus augue erat, ut gravida neque sollicitudin nec. Duis ac ligula auctor, malesuada velit a, placerat leo.</p>
+                            </aside>
+                        </details>      
+                    </div>
+                </aside>       
                 </article> 
         </section>   
         <section class="produkt-kort">
@@ -249,8 +249,9 @@
                 <a href="index.html#populære-produkter" class="related-links">Se flere lignende produkter <i class="fa-solid fa-arrow-right"></i></a>
             </h2>
         </section>
-        <section class="product-container">  
-            <article>
+        <section class="product-container" aria-label="Relaterte produkter">  
+
+            <article aria-label="Relatert produkt 1">
                 <aside class="product-item">
                     <figure class="image-wrapper">
                         <img src="image/hat-l.jpg" alt="Relatert produkt 1">
@@ -270,10 +271,10 @@
                     </span>    
                 </aside>  
             </article>
-            <article>
+            <article aria-label="Relatert produkt 2">
                 <aside class="product-item">
                     <figure class="image-wrapper">
-                        <img src="image/hat-l.jpg" alt="Relatert produkt 1">
+                        <img src="image/hat-l.jpg" alt="Relatert produkt 2">
                         <span class="heart-overlay"><i class="fa-regular fa-heart"></i></span>
                     </figure>
                     <h3 class="product-title">
@@ -290,10 +291,10 @@
                     </span>    
                 </aside>  
             </article>
-            <article>
+            <article aria-label="Relatert produkt 3">
                 <aside class="product-item">
                     <figure class="image-wrapper">
-                        <img src="image/hat-l.jpg" alt="Relatert produkt 1">
+                        <img src="image/hat-l.jpg" alt="Relatert produkt 3">
                         <span class="heart-overlay"><i class="fa-regular fa-heart"></i></span>
                     </figure>
                     <h3 class="product-title">
@@ -310,10 +311,10 @@
                     </span>    
                 </aside>  
             </article>
-            <article>
+            <article aria-label="Relatert produkt 4">
                 <aside class="product-item">
                     <figure class="image-wrapper">
-                        <img src="image/hat-l.jpg" alt="Relatert produkt 1">
+                        <img src="image/hat-l.jpg" alt="Relatert produkt 4">
                         <span class="heart-overlay"><i class="fa-regular fa-heart"></i></span>
                     </figure>
                     <h3 class="product-title">
@@ -330,10 +331,10 @@
                     </span>    
                 </aside>  
             </article>
-            <article>
+            <article aria-label="Relatert produkt 5">
                 <aside class="product-item">
                     <figure class="image-wrapper">
-                        <img src="image/hat-l.jpg" alt="Relatert produkt 1">
+                        <img src="image/hat-l.jpg" alt="Relatert produkt 5">
                         <span class="heart-overlay"><i class="fa-regular fa-heart"></i></span>
                     </figure>
                     <h3 class="product-title">
