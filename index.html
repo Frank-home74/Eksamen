@@ -12,8 +12,8 @@
 <body>
     <a href="#populære-produkter" class="skip-link">Hopp til innhold</a>  
     <header>
-        <form role="search" aria-label="søk"> 
-            <input type="text" name="search" placeholder="Søk etter produkter..." aria-label="Søkefelt" required autocomplete="off">
+        <form role="search" aria-label="søk etter produkter"> 
+            <input id="search" type="text" name="search" placeholder="Søk etter produkter..." aria-label="Søkefelt" required autocomplete="off">
             <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i> 
         </form>  
         <nav aria-label="Hovedmeny">
@@ -31,24 +31,24 @@
         </nav>    
         <ul class="icons">
             <li>
-                <a href="#user" aria-label="Logg inn">
+                <a href="#user">
                     <i class="fa-regular fa-user"></i>
                 </a>
             </li>
             <li>
-                <a href="https://www.minwebside.com" aria-label="Like">
+                <a href="https://www.minwebside.com">
                     <i class="fa-regular fa-heart"></i>
                 </a>
             </li> 
             <li>
-                <a href="checkout.html" aria-label="Åpne handlekurven">
+                <a href="checkout.html">
                     <i class="fa-solid fa-cart-shopping"></i>   
                 </a> 
             </li>
         </ul>          
     </header>
 
-    <main aria-label="Hovedinnhold">
+    <main>
         <section id="banner" aria-label="Bildebanner">
             <div class="banner-container">
                 <figure class="active">
@@ -89,7 +89,7 @@
                 </nav>
             </div>          
         </section>
-        <section id="populære-produkter" aria-label="Populære produkter" aria-labelledby="populære-produkter" tabindex="-1">
+        <section id="populære-produkter" aria-label="Populære produkter" tabindex="-1">
             <h2>Våre mest populære produkter</h2>
             <p>Utforsk våre bestselgere</p>
             <nav class="filter-buttons">
@@ -100,7 +100,7 @@
             <ul class="product-cards">
                 <li class="product-card">
                     <figure class="image-container">
-                        <img src="image/hat-s.jpg" alt="Produkt 1" aria-label="Produkt 1">
+                        <img src="image/hat-s.jpg" alt="Produkt 1">
                         <span class="favorite-icon"><i class="fa-regular fa-heart"></i></span>
                     </figure>
                     <aside class="product-info">
@@ -122,7 +122,7 @@
                     </li>
                     <li class="product-card">
                         <figure class="image-container">
-                            <img src="image/bluse-s.jpg" alt="Produkt 1" aria-label="Produkt 1">
+                            <img src="image/bluse-s.jpg" alt="Produkt 2">
                             <span class="favorite-icon"><i class="fa-regular fa-heart"></i></span>
                         </figure>
                         <aside class="product-info">
@@ -144,7 +144,7 @@
                     </li>
                     <li class="product-card">                       
                         <figure class="image-container">
-                            <img src="image/blaser-s.jpg" alt="Produkt 1" aria-label="Produkt 1">
+                            <img src="image/blaser-s.jpg" alt="Produkt 3">
                             <span class="favorite-icon"><i class="fa-regular fa-heart"></i></span>
                         </figure>
                         <aside class="product-info">
@@ -166,7 +166,7 @@
                     </li>
                     <li class="product-card">
                         <figure class="image-container">
-                            <img src="image/dress-s.jpg" alt="Produkt 1" aria-label="Produkt 1">
+                            <img src="image/dress-s.jpg" alt="Produkt 4">
                             <span class="favorite-icon"><i class="fa-regular fa-heart"></i></span>
                         </figure>
                         <aside class="product-info">
@@ -188,7 +188,7 @@
                         </li>
                         <li class="product-card">
                             <figure class="image-container">
-                                <img src="image/shoe-s.jpg" alt="Produkt 1" aria-label="Produkt 1">
+                                <img src="image/shoe-s.jpg" alt="Produkt 5">
                                 <span class="favorite-icon"><i class="fa-regular fa-heart"></i></span>
                             </figure>
                             <aside class="product-info">
@@ -210,7 +210,7 @@
                         </li>
                         <li class="product-card">                       
                             <figure class="image-container">
-                                <img src="image/t-shirt-s.jpg" alt="Produkt 1" aria-label="Produkt 1">
+                                <img src="image/t-shirt-s.jpg" alt="Produkt 6">
                                 <span class="favorite-icon"><i class="fa-regular fa-heart"></i></span>
                             </figure>
                             <aside class="product-info">
@@ -232,13 +232,13 @@
                         </li>
                 </ul>
         </section>
-        <section id="populære-kategorier" aria-labelledby="populære-kategorier">
+        <section id="populære-kategorier">
             <h2>Våre mest populære kategorier</h2>
             <p>Finn det du leter etter blant våre kategorier</p>
             <ul class="category-cards">
                 <li class="item1">
                     <figure>
-                        <img src="image/kategori-1.jpg" alt="Bilde 1">
+                        <img src="image/kategori-1.jpg" alt="Bilde noen som gifter seg, og brudebuketten">
                         <figcaption class="overlay-kategori">
                             <h2>Category 1</h2>
                         </figcaption>
@@ -246,7 +246,7 @@
                 </li>   
                 <li class="item2">
                     <figure>
-                        <img src="image/kategori-2.jpg" alt="Bilde 2">
+                        <img src="image/kategori-2.jpg" alt="Bilde an en dame som nyter sommervarmen på en gressplen">
                         <figcaption class="overlay-kategori">
                             <h2>Category 2</h2>
                         </figcaption>
@@ -254,7 +254,7 @@
                 </li> 
                 <li class="item3">
                     <figure>
-                        <img src="image/kategori-3.jpg" alt="Bilde 3">
+                        <img src="image/kategori-3.jpg" alt="Bilde av en dame som ligger på sengen med bena opp i mot vinduer, sommerfølelse">
                         <figcaption class="overlay-kategori">
                             <h2>Category 3</h2>
                         </figcaption>
@@ -262,7 +262,7 @@
                 </li>
                 <li class="item4">
                     <figure>
-                        <img src="image/kategori-4.jpg" alt="Bilde 4">
+                        <img src="image/kategori-4.jpg" alt="Bilde av en dame som ligger på marken hvor kjolen hennes markerer en stor sirkel rundt henne, og hun er delvis dekket av løv som minner om høst">
                         <figcaption class="overlay-kategori">
                             <h2>Category 4</h2>
                         </figcaption>
@@ -270,7 +270,7 @@
                 </li>
                 <li class="item5">
                     <figure>
-                        <img src="image/kategori-5.jpg" alt="Bilde 5">
+                        <img src="image/kategori-5.jpg" alt="Bilde av en dame i en hvit lang kjole blant skyene">
                         <figcaption class="overlay-kategori">
                             <h2>Category 5</h2>
                         </figcaption>
@@ -279,11 +279,11 @@
             </ul>
         </section>
 
-        <section id="anmeldelser" aria-labelledby="anmeldelser">
+        <section id="anmeldelser">
             <h2>Anmeldelser</h2>
             <div class="review-cards">
-                <aside class="review" aria-labelledby="anmeldelser">
-                    <img src="image/card1.jpg" alt="Passende tekst for bildet">
+                <aside class="review">
+                    <img src="image/card1.jpg" alt="Bilde av Emma Sørensen, smilende blid med en flette i sitt blonde hår, hun har 3 av 5 stjerner">
                     <h3>Emma Sørensen</h3>
                     <span class="stars">   
                         <span class="star-icon"><i class="fa-solid fa-star"></i></span>
@@ -294,8 +294,8 @@
                     </span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sollicitudin sem dolor. Maecenas auctor dignissim ex, a laoreet felis gravida ac. Donec eget magna libero.</p>
                 </aside>
-                <aside class="review" aria-labelledby="anmeldelser">
-                    <img src="image/card2.jpg" alt="Passende tekst for bildet">
+                <aside class="review">
+                    <img src="image/card2.jpg" alt="Bilde av Sofie Hansen, hun sitter ute i solen og nyter livet, hun har 3 av 5 stjerner">
                     <h3>Sofie Hansen</h3>
                     <span class="stars">   
                         <span class="star-icon"><i class="fa-solid fa-star"></i></span>
@@ -306,8 +306,8 @@
                     </span>
                     <p>Praesent ullamcorper pretium augue, quis euismod mi semper sed. Vivamus vehicula nulla eget elit efficitur, at mollis sem aliquet. Maecenas fringilla velit arcu, ut sollicitudin leo commodo porta.</p>
                 </aside>
-                <aside class="review" aria-labelledby="anmeldelser">
-                    <img src="image/card3.jpg" alt="Passende tekst for bildet">
+                <aside class="review">
+                    <img src="image/card3.jpg" alt="Bilde av Guttorm Jakobsen, han har på seg en caps og store solbriller, han har 3 av 5 stjerner">
                     <h3>Guttorm Jakobsen</h3>
                     <span class="stars">   
                         <span class="star-icon"><i class="fa-solid fa-star"></i></span>
@@ -318,8 +318,8 @@
                     </span>
                     <p>Aliquam sem metus, blandit ornare ligula ac, laoreet consequat erat. Ut commodo congue tellus, vel interdum elit lobortis eu.</p>
                 </aside>
-                <aside class="review" aria-labelledby="anmeldelser">
-                    <img src="image/card4.jpg" alt="Passende tekst for bildet">
+                <aside class="review">
+                    <img src="image/card4.jpg" alt="Bilde av Mia Johansen, hun står ute blant rekkverk av betong som kan minne om romersk arkitektur, hun ser ut til å være i en godt humør, hun har 3 av 5 stjerner">
                     <h3>Mia Johansen</h3>
                     <span class="stars">   
                         <span class="star-icon"><i class="fa-solid fa-star"></i></span>
@@ -330,8 +330,8 @@
                     </span>
                     <p>Vestibulum tincidunt fringilla augue, ut sagittis elit hendrerit nec. Fusce sed justo fermentum, posuere odio ut, pretium erat.</p>
                 </aside>
-                <aside class="review" aria-labelledby="anmeldelser">
-                    <img src="image/card5.jpg" alt="Passende tekst for bildet">
+                <aside class="review">
+                    <img src="image/card5.jpg" alt="Bilde av Max, han er en labrador i en smoking og står foran et slags møterom med glassfaseder i bakgrunnen, han har 3 av 5 stjerner">
                     <h3>Max</h3>
                     <span class="stars">   
                         <span class="star-icon"><i class="fa-solid fa-star"></i></span>
@@ -342,8 +342,8 @@
                     </span>
                     <p>Mauris nec augue diam. Etiam at porttitor felis. Nunc finibus augue erat, ut gravida neque sollicitudin nec. Duis ac ligula auctor, malesuada velit a, placerat leo.</p>
                 </aside>
-                <aside class="review" aria-labelledby="anmeldelser">
-                    <img src="image/card6.jpg" alt="Passende tekst for bildet">
+                <aside class="review">
+                    <img src="image/card6.jpg" alt="Bilde av Bella som er en hund, liggende på gulvet med store vakre øyner som griper oppmerksomheten din, hun har 3 av 5 stjerner">
                     <h3>Bella</h3>
                     <span class="stars">   
                         <span class="star-icon"><i class="fa-solid fa-star"></i></span>
@@ -361,14 +361,14 @@
         <a class="logo" href="index.html">LOGO</a>
         <p>Din pålitelige nettbutikk</p>
         <div class="footer-flexbox">
-            <section id="kontakt" aria-labelledby="kontakt">
+            <section id="kontakt">
                 <h3>KONTAKT</h3>
                 <ul>
                     <li>
                         <i class="fa-solid fa-location-dot"></i>
-                        <address>
+                        <aside>
                             <p><span class="span">Adresse:</span> BRA Veien 4, 1757 Halden </p>
-                        </address>  
+                        </aside>  
                     </li>
                     <li>
                         <i class="fa-solid fa-phone"></i>
