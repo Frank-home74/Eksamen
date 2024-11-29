@@ -1826,9 +1826,5 @@ select {
     }
 }
 /*Fjerne alle hover effekter*/
-@media (max-width: 850px) {
-    *:hover {
-        all: unset;
-    }
-}
+
 
